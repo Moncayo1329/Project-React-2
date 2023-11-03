@@ -2,7 +2,7 @@ import React from "react";
 import image12 from '../src/imagen/image12.png';
 import Star1 from '../src/imagen/Star 1.png'
 
-export default function card(){
+export default function card(props){
 return (
 
 <div className="card">
@@ -10,10 +10,10 @@ return (
 
 <img src={image12} className="card--image" /> 
 <div className="card--stats">
-<img src={Star1} /> 
+<img src={Star1} className="card-star"/> 
 <span>5.0</span>
-<span>(6) </span>
-<span>USA</span>
+<span className="gray">(6) </span>
+<span className="gray">USA</span>
 
 
 
