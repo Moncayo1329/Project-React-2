@@ -10,7 +10,7 @@ import image8 from '../src/Img/image8.png';
 
 function Hero() {
   return (
-    <section>
+    <section className="hero">
       <img src={image1} alt="Description of Img" />
       <img src={image2} alt="Description of Img" />
       <img src={image3} alt="Description of Img" />
